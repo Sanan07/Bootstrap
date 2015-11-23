@@ -1,54 +1,214 @@
-/*@import url(https://fonts.googleapis.com/css?family=Metrophobic);*/
-@import "fonts.css";
-body {
-    font-family: 'Metrophobic', sans-serif;
-}
+        /*@import url(https://fonts.googleapis.com/css?family=Metrophobic);*/
+        @import "fonts.css";
 
-/*Cover picture*/
-.cover {
-    position: relative;
-}
-.color_overlay {
-    position: absolute;
-    top: 0;
-    min-width: 100%;
-    height: 100%;
-    background-color: rgba(34,37,51,0.4);
-    margin-left: 0;
-}
+        body {
+            font-family: 'Metrophobic', sans-serif;
+        }
 
-.color_overlay p {
-    font-size: 15vw;
-}
+        .container-fluid {
+            position: relative;
+        }
+        /*Menu*/
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            margin-bottom: 0;
+        }
+        /*Brand name*/
+        .navbar .navbar-header a {
+            margin-top: 9px;
+            color: rgb(220,0,0);
+            font-family: 'BebasNeueRegular', sans-serif;
+            font-size: 2vw;
+        }
+        .navbar .navbar-header span {
+            margin-top: 9px;
+            color: rgb(220,0,0);
+            font-family: 'BebasNeueBook', sans-serif;
+            font-size: 85%;
+        }
+        /*List of menu*/
+        .collapse ul {
+            position: relative;
+            left: 5%;
+        }
+        /*Elements of menu*/
+        .navbar-nav li a{
+            color: whitesmoke;
+            padding: 15px 35px;
+            font-size: 1vw;
+            font-family: "OpenSans",sans-serif;
+            background-color: transparent;
+        }
+        .navbar-nav li a:hover{
+            background-color: transparent;
+        }
+        .navbar-nav li a:focus{
+            background-color: transparent;
+        }
+        /*Button for menu*/
+        .navbar-toggle {
+            margin-top: 0;
+        }
 
-/*Our projects*/
-.title {
-    margin: 60px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.col-lg-12 h1 {
-    position: relative;
-    text-align: center;
-    font-size: 2vw;
-    font-family: "OpenSansLightItalic",sans-serif;
-}
-.col-lg-12 h1:after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 40%;
-    top: -20px;
-    left: 30%;
-    border:1px solid rgb(220,0,0);
-}
-.col-lg-12 h1:before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 40%;
-    bottom: -20px;
-    left: 30%;
-    border: 1px solid rgb(220,0,0);
-}
+        @media screen and (max-width: 768px){
+            .navbar {
+                background-color: black;
+                z-index: 1;
+            }
+            .navbar .navbar-header a {
+                font-size: 4vw;
+            }
+            .navbar .navbar-header span {
+                font-size: 85%;
+            }
+
+            .icon-bar {
+                background-color: whitesmoke;
+            }
+            .navbar .navbar-header a {
+                margin-top: 0px;
+            }
+            .navbar-nav li a{
+                color: whitesmoke;
+                font-size: 2vw;
+                padding: 15px 10px;
+            }
+        }
+
+        @media screen and (max-width: 1270px){
+            .collapse ul {
+                position: relative;
+                left: 0;
+                transition: all ease 0.2s;
+            }
+        }
+        /*Text on main cover image*/
+        .spring {
+            position: absolute;
+            top: 32%;
+            left: 26%;
+            text-align: center;
+            text-transform: uppercase;
+            color: rgba(225,225,225,0.9);
+            font-size: 1.4vw;
+            letter-spacing: 0.4em;
+            font-family: "OpenSansLight", sans-serif;
+        }
+        .discount {
+            position:absolute;
+            top: 39%;
+            left: 10%;
+            text-align: center;
+            text-transform: uppercase;
+            color: whitesmoke;
+            font-size: 3.29vw;
+            font-family: "LatoBlack", sans-serif;
+        }
+        .trend {
+            position:absolute;
+            top: 51%;
+            left: 23%;
+            text-align: center;
+            text-transform: uppercase;
+            color: whitesmoke;
+            font-size: 1.67vw;
+            font-family: "OpenSansLight", sans-serif;
+        }
+        /*Shop button*/
+        .shop {
+            position:absolute;
+            top: 62%;
+            left: 44%;
+            text-align: left;
+            text-transform: uppercase;
+            color: whitesmoke;
+            font-size: 1vw;
+            font-family: "LatoBlack", sans-serif;
+        }
+        .shop a {
+            color: whitesmoke;
+            padding: 1vw 3vw;
+            border: 0.2vw solid whitesmoke;
+            border-radius: 0.5vw;
+            text-decoration: none;
+        }
+        .shop a:hover {
+            background-color: whitesmoke;
+            color: rgb(34,37,51);
+        }
+         /*Navigation button*/
+         .circles {
+             position: absolute;
+             display: block;
+             top: 94%;
+             left: 46%;
+             text-align: center;
+        }
+        .circles li {
+            list-style: none;
+            float: left;
+            margin: 0 0.1vw;
+        }
+        .circles li a {
+            display:block;
+            width: 0.7vw;
+            height: 0.7vw;
+            background: whitesmoke;
+            border-radius: 0.7vw;
+            border: 1px solid whitesmoke;
+        }
+        .circles li a.active {
+            background-color: #444;
+        }
+        @media screen and (max-width: 891px){
+            .circles {
+                left: 45%;
+            }
+        }
+        @media screen and (max-width: 620px){
+            .circles {
+               left: 42%;
+            }
+        }
+        /*Color overlat of blue color*/
+        .color_overlay {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(34,37,51,0.4);
+        }
+
+        /*Latest products*/
+        .title {
+            margin: 3.5vw 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .col-lg-12 h1 {
+            position: relative;
+            text-align: center;
+            font-size: 2vw;
+            font-family: "OpenSansLightItalic",sans-serif;
+        }
+        .col-lg-12 h1:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 40%;
+            top: -1.5vw;
+            left: 30%;
+            border: 1px solid rgb(220,0,0);
+        }
+        .col-lg-12 h1:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 40%;
+            bottom: -1.5vw;
+            left: 30%;
+            border: 1px solid rgb(220,0,0);
+        }

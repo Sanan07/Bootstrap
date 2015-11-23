@@ -133,7 +133,7 @@ if (typeof jQuery === 'undefined') {
         .one('bsTransitionEnd', removeElement)
         .emulateTransitionEnd(Alert.TRANSITION_DURATION) :
       removeElement()
-  }
+  };
 
 
   // ALERT PLUGIN DEFINITION
@@ -161,7 +161,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.alert.noConflict = function () {
     $.fn.alert = old
     return this
-  }
+  };
 
 
   // ALERT DATA-API
@@ -190,13 +190,13 @@ if (typeof jQuery === 'undefined') {
     this.$element  = $(element)
     this.options   = $.extend({}, Button.DEFAULTS, options)
     this.isLoading = false
-  }
+  };
 
   Button.VERSION  = '3.3.5'
 
   Button.DEFAULTS = {
     loadingText: 'loading...'
-  }
+  };
 
   Button.prototype.setState = function (state) {
     var d    = 'disabled'
@@ -243,7 +243,6 @@ if (typeof jQuery === 'undefined') {
       this.$element.toggleClass('active')
     }
   }
-
 
   // BUTTON PLUGIN DEFINITION
   // ========================

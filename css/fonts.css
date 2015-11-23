@@ -1,4 +1,24 @@
 @font-face {
+    font-family: 'LatoBlack';
+    src: url('../fonts/Lato-Black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans.ttf') format('truetype');
+}
+@font-face {
     font-family: 'OpenSansLightItalic';
     src: url('../fonts/OpenSansItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../fonts/OpenSansLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeueRegular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('../fonts/BebasNeueBook.otf') format('opentype');
 }
