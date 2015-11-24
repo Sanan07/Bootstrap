@@ -7,8 +7,12 @@
     src: url('../fonts/OpenSans.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'OpenSansLightItalic';
+    font-family: 'OpenSansItalic';
     src: url('../fonts/OpenSansItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('../fonts/OpenSansLightItalic.ttf') format('truetype');
 }
 @font-face {
     font-family: 'OpenSansLight';

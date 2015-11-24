@@ -68,7 +68,7 @@
                 background-color: whitesmoke;
             }
             .navbar .navbar-header a {
-                margin-top: 0px;
+                margin-top: 0;
             }
             .navbar-nav li a{
                 color: whitesmoke;
@@ -172,7 +172,7 @@
                left: 42%;
             }
         }
-        /*Color overlat of blue color*/
+        /*Color overlay of blue color*/
         .color_overlay {
             position: absolute;
             top: 0;
@@ -192,7 +192,7 @@
             position: relative;
             text-align: center;
             font-size: 2vw;
-            font-family: "OpenSansLightItalic",sans-serif;
+            font-family: "OpenSansItalic",sans-serif;
         }
         .col-lg-12 h1:after {
             content: '';
@@ -211,4 +211,126 @@
             bottom: -1.5vw;
             left: 30%;
             border: 1px solid rgb(220,0,0);
+        }
+
+        /*Latest product*/
+
+        .container  .row .col-xs-4 {
+            position: relative;
+            padding: 0;
+        }
+        .container .row .col-xs-4 img {
+            width: 95%;
+
+        }
+        .products .row .col-xs-4 .color_overlay2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            height: 100%;
+            background-color: rgba(34,37,51,0.7);
+            font-family: "OpenSansLightItalic", sans-serif;
+            color: whitesmoke;
+        }
+        .products .row .men .color_overlay2 h1 {
+            font-size: 2vw;
+            padding: 39% 34%;
+            border: 3px solid whitesmoke;
+        }
+
+        .products .row .woman .color_overlay2 h1 {
+            font-size: 2vw;
+            padding: 39% 28%;
+            border: 3px solid whitesmoke;
+        }
+        .products .row .watches .color_overlay2 h1 {
+            font-size: 2vw;
+            padding: 39% 28%;
+            border: 3px solid whitesmoke;
+        }
+
+        /*Second row*/
+        .second_row {
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+        }
+
+        .container  .row .col-xs-6 {
+            position: relative;
+            padding: 0;
+        }
+        .container .row .col-xs-6 img {
+            width: 95%;
+
+        }
+        .products .row .col-xs-6 .color_overlay2 {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 95%;
+              height: 100%;
+              background-color: rgba(34,37,51,0.4);
+              font-family: "LatoBlack", sans-serif;
+              color: whitesmoke;
+          }
+        .products .row .col-xs-6 .off {
+            background-color: rgba(34,37,51,0.7);
+        }
+
+        .products .row .col-xs-6 .off p {
+            position: relative;
+            left: 25%;
+            top: 27%;
+            text-align: center;
+            width: 52%;
+            font-size: 2.7vw;
+        }
+        .products .row .col-xs-6 .mega p {
+            position: relative;
+            top: 27%;
+            text-align: center;
+            width: 100%;
+            font-size: 2.7vw;
+        }
+        .products .row .col-xs-6 .off p:after{
+            content: '';
+            display: block;
+            position: absolute;
+            width: 70%;
+            top: -0.5vw;
+            left: 15%;
+            border: 1px solid whitesmoke;
+        }
+       
+        .products .row .col-xs-6 .off p:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 70%;
+            bottom: -0.5vw;
+            left: 15%;
+            border: 1px solid whitesmoke;
+        }
+
+        .products .row .col-xs-6 .mega p:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 40%;
+            top: -0.5vw;
+            left: 30%;
+            border: 1px solid whitesmoke;
+        }
+        .products .row .col-xs-6 .mega p:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 40%;
+            bottom: -0.5vw;
+            left: 30%;
+            border: 1px solid whitesmoke;
         }
