@@ -1,10 +1,22 @@
 @font-face {
+    font-family: 'LatoRegular';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
     font-family: 'LatoBlack';
     src: url('../fonts/Lato-Black.ttf') format('truetype');
 }
 @font-face {
+    font-family: 'LatoBold';
+    src: url('../fonts/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
     font-family: 'OpenSans';
     src: url('../fonts/OpenSans.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OpenSansBold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'OpenSansItalic';

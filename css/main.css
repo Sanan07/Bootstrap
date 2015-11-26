@@ -22,6 +22,7 @@
             font-family: 'BebasNeueRegular', sans-serif;
             font-size: 2vw;
         }
+        /*Ly span*/
         .navbar .navbar-header span {
             margin-top: 9px;
             color: rgb(220,0,0);
@@ -54,7 +55,7 @@
 
         @media screen and (max-width: 768px){
             .navbar {
-                background-color: black;
+                background-color: transparent;
                 z-index: 1;
             }
             .navbar .navbar-header a {
@@ -63,7 +64,6 @@
             .navbar .navbar-header span {
                 font-size: 85%;
             }
-
             .icon-bar {
                 background-color: whitesmoke;
             }
@@ -96,6 +96,7 @@
             letter-spacing: 0.4em;
             font-family: "OpenSansLight", sans-serif;
         }
+        /*Discount text*/
         .discount {
             position:absolute;
             top: 39%;
@@ -106,6 +107,7 @@
             font-size: 3.29vw;
             font-family: "LatoBlack", sans-serif;
         }
+        /*Trending text*/
         .trend {
             position:absolute;
             top: 51%;
@@ -127,6 +129,7 @@
             font-size: 1vw;
             font-family: "LatoBlack", sans-serif;
         }
+        /*Shop button link*/
         .shop a {
             color: whitesmoke;
             padding: 1vw 3vw;
@@ -180,7 +183,6 @@
             width: 100%;
             background-color: rgba(34,37,51,0.4);
         }
-
         /*Latest products*/
         .title {
             margin: 3.5vw 0;
@@ -188,41 +190,43 @@
             justify-content: center;
             align-items: center;
         }
-        .col-lg-12 h1 {
+        /*Latest product h1*/
+        .col-xs-12 h1 {
             position: relative;
             text-align: center;
             font-size: 2vw;
             font-family: "OpenSansItalic",sans-serif;
         }
-        .col-lg-12 h1:after {
+        /*Lines on top and bottom of text*/
+        .col-xs-12 h1:after {
             content: '';
             display: block;
             position: absolute;
             width: 40%;
-            top: -1.5vw;
+            top: -1.3vw;
             left: 30%;
             border: 1px solid rgb(220,0,0);
         }
-        .col-lg-12 h1:before {
+        .col-xs-12 h1:before {
             content: '';
             display: block;
             position: absolute;
             width: 40%;
-            bottom: -1.5vw;
+            bottom: -1.4vw;
             left: 30%;
             border: 1px solid rgb(220,0,0);
         }
 
         /*Latest product*/
-
+        /*Columns of images of latest products*/
         .container  .row .col-xs-4 {
             position: relative;
             padding: 0;
         }
         .container .row .col-xs-4 img {
             width: 95%;
-
         }
+        /*Color overlay on images*/
         .products .row .col-xs-4 .color_overlay2 {
             position: absolute;
             top: 0;
@@ -236,12 +240,12 @@
             font-family: "OpenSansLightItalic", sans-serif;
             color: whitesmoke;
         }
+        /*Men Woman and watches text*/
         .products .row .men .color_overlay2 h1 {
             font-size: 2vw;
             padding: 39% 34%;
             border: 3px solid whitesmoke;
         }
-
         .products .row .woman .color_overlay2 h1 {
             font-size: 2vw;
             padding: 39% 28%;
@@ -256,16 +260,14 @@
         /*Second row*/
         .second_row {
             margin-top: 2vw;
-            margin-bottom: 2vw;
+            margin-bottom: 3.3vw;
         }
-
         .container  .row .col-xs-6 {
             position: relative;
             padding: 0;
         }
         .container .row .col-xs-6 img {
             width: 95%;
-
         }
         .products .row .col-xs-6 .color_overlay2 {
               position: absolute;
@@ -280,7 +282,7 @@
         .products .row .col-xs-6 .off {
             background-color: rgba(34,37,51,0.7);
         }
-
+        /*Text on images of second row*/
         .products .row .col-xs-6 .off p {
             position: relative;
             left: 25%;
@@ -296,6 +298,7 @@
             width: 100%;
             font-size: 2.7vw;
         }
+        /*Lines on second row*/
         .products .row .col-xs-6 .off p:after{
             content: '';
             display: block;
@@ -305,7 +308,6 @@
             left: 15%;
             border: 1px solid whitesmoke;
         }
-       
         .products .row .col-xs-6 .off p:before {
             content: '';
             display: block;
@@ -315,7 +317,6 @@
             left: 15%;
             border: 1px solid whitesmoke;
         }
-
         .products .row .col-xs-6 .mega p:after {
             content: '';
             display: block;
@@ -334,3 +335,144 @@
             left: 30%;
             border: 1px solid whitesmoke;
         }
+
+        /*Trending items*/
+        .bg-trending {
+            opacity: 0.3;
+        }
+
+        .trending .row .title {
+            position: absolute;
+            top:0;
+            margin-top: 3vw;
+        }
+        .trending .row .jacket-img {
+             position: absolute;
+             top: 22%;
+             left: 19%;
+             width: 30.675vw;
+             height: 30vw;
+         }
+
+        .trending .row .jacket-img img {
+
+            width: 30.675vw;
+            height: 29.675vw;
+        }
+
+        .trending .row .description {
+            position: absolute;
+            top:  21%;
+            right: 0;
+
+        }
+        .trending .row .description h3{
+            font-family: "LatoBold", sans-serif;
+            font-size: 1.5vw;
+            color: rgb(220, 0, 0);
+        }
+        .trending .row .description h4{
+            font-family: "OpenSans", sans-serif;
+            font-size: 0.9vw;
+            color: rgb(119, 119, 119);
+        }
+
+        .trending .row .description .classic{
+            font-family: "LatoRegular", sans-serif;
+            font-size: 1.2vw;
+            width: 82%;
+            letter-spacing: 0.122vw;
+            color: rgb(119, 119, 119);
+        }
+        .trending .row .description .sizes {
+            margin-top: 2vw;
+            height: 2vw;
+            padding-left: 0;
+            font-size: 1vw;
+        }
+        .trending .row .description .sizes li{
+            float: left;
+            text-align: center;
+            list-style: none;
+            margin-right: 1.5vw;
+            font-family: "OpenSansBold",sans-serif;
+        }
+
+        .trending .row .description .sizes li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 1vw 1.5vw;
+            border: 0.1vw solid #515151;
+            color: #515151;
+        }
+
+        .trending .row .description .sizes .selected a {
+            background-color: #515151;
+            color: whitesmoke;
+            padding: 1vw 1.7vw;
+            margin-right: 1.5vw;
+        }
+
+        .trending .row .description .sizes li a:hover{
+            background-color: #515151;
+            color: whitesmoke;
+        }
+
+        .trending .row .description .btns {
+            margin-top: 3vw;
+            height: 2vw;
+            padding-left: 0;
+            font-size: 1vw;
+        }
+        .trending .row .description .btns li{
+            float: left;
+            text-align: center;
+            list-style: none;
+            margin-right: 2.5vw;
+            font-family: "OpenSansBold",sans-serif;
+        }
+
+        .trending .row .description .btns li a{
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 1vw 2vw;
+            border: 0.1vw solid #515151;
+            color: #515151;
+        }
+        .trending .row .description .btns li a:hover{
+            background-color: #515151;
+            color: whitesmoke;
+        }
+        .trending .row .description .btns .size_guide{
+            margin-left: 0.5em;
+        }
+        .trending .row .description .btns .size_guide a{
+            padding: 1em 2.7em;
+        }
+
+        .trending_circles {
+            position: absolute;
+            display: block;
+            top: 94%;
+            left: 44%;
+            text-align: center;
+        }
+        .trending_circles li {
+            list-style: none;
+            float: left;
+            margin: 0 0.1vw;
+        }
+        .trending_circles li a {
+            display:block;
+            width: 0.9vw;
+            height: 0.9vw;
+            background: #515151;
+            opacity: 0.54;
+            border-radius: 0.7vw;
+            border: 1px solid whitesmoke;
+        }
+        .trending_circles li a.active {
+            border-color: rgb(220,0,0);
+            background-color: white;
+        }
+
