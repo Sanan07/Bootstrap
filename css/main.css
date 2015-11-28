@@ -1,9 +1,4 @@
-        /*@import url(https://fonts.googleapis.com/css?family=Metrophobic);*/
         @import "fonts.css";
-
-        body {
-            font-family: 'Metrophobic', sans-serif;
-        }
 
         .container-fluid {
             position: relative;
@@ -15,6 +10,7 @@
             width: 100%;
             margin-bottom: 0;
         }
+
         /*Brand name*/
         .navbar .navbar-header a {
             margin-top: 9px;
@@ -22,6 +18,7 @@
             font-family: 'BebasNeueRegular', sans-serif;
             font-size: 2vw;
         }
+
         /*Ly span*/
         .navbar .navbar-header span {
             margin-top: 9px;
@@ -29,11 +26,13 @@
             font-family: 'BebasNeueBook', sans-serif;
             font-size: 85%;
         }
+
         /*List of menu*/
         .collapse ul {
             position: relative;
             left: 5%;
         }
+
         /*Elements of menu*/
         .navbar-nav li a{
             color: whitesmoke;
@@ -84,6 +83,7 @@
                 transition: all ease 0.2s;
             }
         }
+
         /*Text on main cover image*/
         .spring {
             position: absolute;
@@ -96,6 +96,7 @@
             letter-spacing: 0.4em;
             font-family: "OpenSansLight", sans-serif;
         }
+
         /*Discount text*/
         .discount {
             position:absolute;
@@ -107,6 +108,7 @@
             font-size: 3.29vw;
             font-family: "LatoBlack", sans-serif;
         }
+
         /*Trending text*/
         .trend {
             position:absolute;
@@ -118,6 +120,7 @@
             font-size: 1.67vw;
             font-family: "OpenSansLight", sans-serif;
         }
+
         /*Shop button*/
         .shop {
             position:absolute;
@@ -129,6 +132,7 @@
             font-size: 1vw;
             font-family: "LatoBlack", sans-serif;
         }
+
         /*Shop button link*/
         .shop a {
             color: whitesmoke;
@@ -175,6 +179,7 @@
                left: 42%;
             }
         }
+
         /*Color overlay of blue color*/
         .color_overlay {
             position: absolute;
@@ -183,6 +188,7 @@
             width: 100%;
             background-color: rgba(34,37,51,0.4);
         }
+
         /*Latest products*/
         .title {
             margin: 3.5vw 0;
@@ -190,6 +196,7 @@
             justify-content: center;
             align-items: center;
         }
+
         /*Latest product h1*/
         .col-xs-12 h1 {
             position: relative;
@@ -197,6 +204,7 @@
             font-size: 2vw;
             font-family: "OpenSansItalic",sans-serif;
         }
+
         /*Lines on top and bottom of text*/
         .col-xs-12 h1:after {
             content: '';
@@ -217,7 +225,8 @@
             border: 1px solid rgb(220,0,0);
         }
 
-        /*Latest product*/
+                            /*---------Latest product----------*/
+
         /*Columns of images of latest products*/
         .container  .row .col-xs-4 {
             position: relative;
@@ -282,6 +291,7 @@
         .products .row .col-xs-6 .off {
             background-color: rgba(34,37,51,0.7);
         }
+
         /*Text on images of second row*/
         .products .row .col-xs-6 .off p {
             position: relative;
@@ -298,6 +308,7 @@
             width: 100%;
             font-size: 2.7vw;
         }
+
         /*Lines on second row*/
         .products .row .col-xs-6 .off p:after{
             content: '';
@@ -340,7 +351,7 @@
         .bg-trending {
             opacity: 0.3;
         }
-
+        /*Title of trending section*/
         .trending .row .title {
             position: absolute;
             top:0;
@@ -354,12 +365,13 @@
              height: 30vw;
          }
 
+        /*Jacket image*/
         .trending .row .jacket-img img {
 
             width: 30.675vw;
             height: 29.675vw;
         }
-
+        /*Text right of jacket*/
         .trending .row .description {
             position: absolute;
             top:  21%;
@@ -384,6 +396,7 @@
             letter-spacing: 0.122vw;
             color: rgb(119, 119, 119);
         }
+        /*Sizes buttona*/
         .trending .row .description .sizes {
             margin-top: 2vw;
             height: 2vw;
@@ -397,7 +410,6 @@
             margin-right: 1.5vw;
             font-family: "OpenSansBold",sans-serif;
         }
-
         .trending .row .description .sizes li a{
             text-decoration: none;
             text-transform: uppercase;
@@ -405,19 +417,17 @@
             border: 0.1vw solid #515151;
             color: #515151;
         }
-
         .trending .row .description .sizes .selected a {
             background-color: #515151;
             color: whitesmoke;
             padding: 1vw 1.7vw;
             margin-right: 1.5vw;
         }
-
         .trending .row .description .sizes li a:hover{
             background-color: #515151;
             color: whitesmoke;
         }
-
+        /*Shop Now buttons*/
         .trending .row .description .btns {
             margin-top: 3vw;
             height: 2vw;
@@ -450,6 +460,7 @@
             padding: 1em 2.7em;
         }
 
+        /*Trending pagination*/
         .trending_circles {
             position: absolute;
             display: block;
@@ -476,3 +487,133 @@
             background-color: white;
         }
 
+        /*From The Blog*/
+
+        .blog {
+            margin-bottom: 6vw;
+        }
+
+        .blog .row h1 {
+            font-family: "LatoBold", sans-serif;
+            font-size: 1.5vw;
+            color: rgb(220, 0, 0);
+        }
+
+        .blog .row h3 {
+            font-family: "LatoRegular", sans-serif;
+            font-size: 1vw;
+            color: rgba(51, 51, 51,0.8);
+        }
+        .blog .row p {
+            position: relative;
+            font-family: "OpenSansLight", sans-serif;
+            font-size: 1.1vw;
+            top: 2.5vw;
+            width: 96%;
+            color: rgba(51, 51, 51,0.6);
+            margin-bottom: 8.5vw;
+        }
+
+        /*Line up to text*/
+        .blog .row p:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: -1.5vw;
+            border: 1px solid rgba(31,31,31,0.1);
+        }
+
+        /*Line on bottom of text*/
+        .blog .row p:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            bottom: -1.5vw;
+            border: 1px solid rgba(31,31,31,0.1);
+        }
+
+        /*Read More button*/
+        .blog .row a {
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 1vw 1.5vw;
+            border: 0.1vw solid #515151;
+            font-size: 1vw;
+            font-family: "OpenSansBold", sans-serif;
+            color: #515151;
+        }
+        .blog .row a:hover {
+            background-color: #515151;
+            color: whitesmoke;
+        }
+
+
+        /*Subscribe*/
+
+        .subscribe {
+            position: relative;
+        }
+
+        .subscribe .row h4 {
+            position: absolute;
+            top: 20%;
+            left: 13%;
+            font-family: "OpenSansLight", sans-serif;
+            font-size: 1.2vw;
+            color: whitesmoke;
+        }
+        /*Form group*/
+        .subscribe .row .form-group {
+            position: absolute;
+            top: 48%;
+            left: 13%;
+        }
+        /*Input*/
+        .subscribe .row .form-group input {
+            color: whitesmoke;
+            font-family: "OpenSansLight", sans-serif;
+            border: 0.1vw solid whitesmoke;
+            font-size: 0.9vw;
+            background-color: transparent;
+            height: 3vw;
+            width: 46vw;
+        }
+
+        /*Subscribe link*/
+
+        .subscribe .row a {
+            position: absolute;
+            top: 48%;
+            left: 72%;
+            color: black;
+            text-transform: uppercase;
+            font-family: "OpenSansBold", sans-serif;
+            font-size: 1vw;
+            text-decoration: none;
+            padding: 1vw 6vw;
+            background-color: whitesmoke;
+        }
+
+        /*Footer*/
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vw;
+
+          }
+
+        .footer .txt {
+            font-size: 1.7vw;
+            font-family: "LatoRegular", sans-serif;
+            opacity: 0.6;
+        }
+
+
+        .footer  .glyphicon:not(.txt) {
+            color: rgb(220,0,0);
+            font-size: 1.5vw;
+
+        }
